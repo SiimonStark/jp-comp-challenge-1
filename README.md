@@ -8,10 +8,17 @@ As our first class assignment we were to construct a website from scratch that m
 Finished. (Not Perfect)
  
 ## Screenshots
-Finished Project:
-![finimg](https://user-images.githubusercontent.com/23123990/49356877-7560d480-f68a-11e8-85f3-18bb9f1859f6.png)<br><hr><br>
-Static Comp:
-![dog-party-js-edition](https://user-images.githubusercontent.com/23123990/49356929-afca7180-f68a-11e8-9226-73b00063c65c.jpg)<br>
+##Finished Project:
+**Full Screen**
+![_users_siimonsaint_desktop_documents_code_turing_projects_static-comp-1_index html 1](https://user-images.githubusercontent.com/23123990/49880678-e79f8a80-fde9-11e8-864f-b3323322fd42.png)
+**Shrunk a Little**
+![_users_siimonsaint_desktop_documents_code_turing_projects_static-comp-1_index html](https://user-images.githubusercontent.com/23123990/49880679-e8382100-fde9-11e8-9069-6762c1e8fd82.png)
+**Mobile**
+![_users_siimonsaint_desktop_documents_code_turing_projects_static-comp-1_index html iphone 5_se](https://user-images.githubusercontent.com/23123990/49880680-e8382100-fde9-11e8-9549-c8d252d37179.png)
+
+##Static Comp:
+<img width="416" alt="screen shot 2018-12-12 at 8 20 48 am" src="https://user-images.githubusercontent.com/23123990/49880785-1a498300-fdea-11e8-810b-8e5c595f0b21.png">
+<br>
 
 ## Tech/framework used
 <b>Built with HTML & CSS</b>
