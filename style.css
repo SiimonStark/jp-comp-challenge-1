@@ -1,0 +1,217 @@
+/*
+  Coolers
+  https://coolors.co/191919-145389-1775c6-e0ebf0-d33b40
+*/
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #0070B6;
+}
+
+header {
+  background-color: #13427B;
+  display: flex;
+  justify-content: space-between;
+  height: 10em;
+  width: 100%;
+}
+
+.hed-left {
+  display: flex;
+  align-items: : center;
+  width: 50%;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-top: 85px;
+  padding-left: 30px;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  padding-right: 5px;
+  vertical-align: bottom;
+}
+
+.n-link {
+  color: #FFCB05;
+  text-shadow: 1.5px 1.5px #0070B6;
+  text-align: center;
+  vertical-align: center;
+  padding-right: 10px;
+  margin-right: 15px;
+}
+
+.hed-right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  align-items: flex-end;
+}
+
+.login {
+  color: #FFCB05;
+  text-shadow: 1.5px 1.5px #0070B6;
+  text-align: center;
+  width: 200px;
+}
+
+#poke {
+  height: 80px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin-top: 2rem;
+  margin-left: 30px;
+  font-size: 2.5em;
+  color: #FFCB05;
+  text-shadow: 3px 3px #13427B;
+}
+
+.container-card {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.card-temp {
+  border: 2px solid gray;
+  width: 300px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #FFCB05;
+  box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.4), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-cont {
+  direction: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.http {
+  background-color: gray;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.img-cont {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-overlay {
+  height: 50px;
+  width: 50px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.ep-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 900;
+  color: #B73333;
+  text-shadow: .5px .5px white;
+  padding-right: 15px;
+}
+
+.episode {
+  margin-bottom: 0;
+}
+
+.ep-num {
+  margin-top: 0;
+}
+
+.img-cont1 {
+  display: flex;
+  background: linear-gradient( rgba(0, 0, 0,50%), rgba(0, 0, 0, 20%) ), url("img/Ep1_IChooseYou.png");
+  background-size: cover;
+}
+
+.img-cont2 {
+  display: flex;
+  background: linear-gradient( rgba(0, 0, 0,50%), rgba(0, 0, 0, 20%) ), url("img/Ep2_PokemonEmergency.png");
+  background-size: cover;
+}
+
+.img-cont3 {
+  display: flex;
+  background: linear-gradient( rgba(0, 0, 0,50%), rgba(0, 0, 0, 20%) ), url("img/Ep3_AshCatchesAPokemon.png");
+  background-size: cover;
+}
+
+.img-cont4 {
+  display: flex;
+  background: linear-gradient( rgba(0, 0, 0,50%), rgba(0, 0, 0, 20%) ), url("img/Ep12_HereComesTheSquirtle.png");
+  background-size: cover;
+}
+
+.img-cont5 {
+  display: flex;
+  background: linear-gradient( rgba(0, 0, 0,50%), rgba(0, 0, 0, 20%) ), url("img/Ep29_SparksFlyForMagnemite.png");
+  background-size: cover;
+}
+
+.img-cont6 {
+  display: flex;
+  background: linear-gradient( rgba(0, 0, 0,50%), rgba(0, 0, 0, 20%) ), url("img/Ep35_DittosMysterious.png");
+  background-size: cover;
+}
+
+.img-cont7 {
+  display: flex;
+  background: linear-gradient( rgba(0, 0, 0,50%), rgba(0, 0, 0, 20%) ), url("img/Ep36_PikachusGoodbye.png");
+  background-size: cover;
+}
+
+.img-cont8 {
+  display: flex;
+  background: linear-gradient( rgba(0, 0, 0,50%), rgba(0, 0, 0, 20%) ), url("img/Ep38_WakeUpSnorlax.png");
+  background-size: cover;
+}
+
+@media screen and (max-width: 420px) {
+  header {
+    flex-direction: column;
+    height: 240px;
+    order: 0
+  }
+  .hed-left {
+  order: 2;
+  margin-left: -5px;
+  margin-top: -60px;
+}
+
+  .nav-links {
+    padding-bottom: 20px;
+  }
+
+  .icon {
+    margin-top: -60px;
+    padding-bottom: 10px;
+  }
+
+  .hed-right {
+    padding-left: 100px;
+    order: 1;
+  }
+
+  .login {
+    padding-top: 20px;
+  }
+}
